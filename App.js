@@ -109,7 +109,7 @@ export default function App() {
         </View>
         <View style={{ padding: 16 }}>
           <Text style={{ color: colors.white, fontSize: 30 }}>
-            {"Selam\nAteş"}
+            {"Selam Günün Programına \nHoşgeldin"}
           </Text>
           <View
             style={{
