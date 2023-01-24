@@ -153,6 +153,7 @@ export default function App() {
             justifyContent: "space-between",
             alignItems: "center",
             borderTopLeftRadius: 20,
+            borderBottomLeftRadius: 20,
           }}
         >
           <Text style={{ fontSize: 24 }}>Tasks</Text>
@@ -163,7 +164,9 @@ export default function App() {
           />
         </View>
 
-        <ScrollView style={{ backgroundColor: colors.background }}>
+        <ScrollView
+          style={{ backgroundColor: colors.themeColor, marginTop: 15 }}
+        >
           {tasks.map((task) => (
             <Task
               task={task.task}
